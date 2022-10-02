@@ -19,6 +19,7 @@
   "homepage": "https://github.com/swvmpdad/creed-thoughts#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "mongoose": "^6.6.3"
+    "mongoose": "^6.6.3",
+    "validator": "^13.7.0"
   }
 }
