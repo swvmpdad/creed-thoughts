@@ -10,8 +10,10 @@ const {
 router.route('/:userId').post(addThought);
 
 router.route('/:userId/:thoughtId')
-    .put(addReaction)
     .delete(removeThought);
+
+router.route('/:thoughtId/reactions')
+    .post(addReaction);
 
 router.route('/:userId/:thoughtId/:replyId').delete(removeReaction);
 
