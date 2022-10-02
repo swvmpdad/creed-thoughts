@@ -1,0 +1,24 @@
+{
+  "name": "creed-thoughts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swvmpdad/creed-thoughts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swvmpdad/creed-thoughts/issues"
+  },
+  "homepage": "https://github.com/swvmpdad/creed-thoughts#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.3"
+  }
+}
